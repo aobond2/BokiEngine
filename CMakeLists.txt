@@ -35,6 +35,7 @@ add_executable(GfxEngine
     src/main.cpp 
     src/Engine.cpp
     src/glad.c
+    src/Shader.cpp
     include/Engine.h
 )
 

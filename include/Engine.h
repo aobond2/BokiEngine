@@ -1,5 +1,7 @@
 #pragma once
 #include <GLFW/glfw3.h>
+#include <memory>
+#include "Shader.h"
 
 class Engine
 {
@@ -18,4 +20,7 @@ private:
 	// Helper to keep main loop clean
 	void ProcessInput();
 	void Render();
+
+	unsigned int VAO, VBO;
+	Shader* myShader;
 };
